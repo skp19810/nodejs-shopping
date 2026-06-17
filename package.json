@@ -1,46 +1,46 @@
 {
-  "name": "nodejs-shopping",
-  "version": "1.0.0",
-  "description": "Node.js online shopping application",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js",
-    "debug": "nodemon --inspect app.js"
+  "name" : "nodejs-shopping",
+  "version" : "1.0.0",
+  "description" : "Node.js online shopping application",
+  "main" : "app.js",
+  "scripts" : {
+    "start" : "node app.js",
+    "debug" : "nodemon --inspect app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gaetanBloch/nodejs-shopping.git"
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/gaetanBloch/nodejs-shopping.git"
   },
-  "author": "Gaëtan Bloch",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gaetanBloch/nodejs-shopping/issues"
+  "author" : "Gaëtan Bloch",
+  "license" : "ISC",
+  "bugs" : {
+    "url" : "https://github.com/gaetanBloch/nodejs-shopping/issues"
   },
-  "homepage": "https://github.com/gaetanBloch/nodejs-shopping#readme",
-  "devDependencies": {
-    "nodemon": "^2.0.4"
+  "homepage" : "https://github.com/gaetanBloch/nodejs-shopping#readme",
+  "devDependencies" : {
+    "nodemon" : "^2.0.4"
   },
-  "dependencies": {
-    "express": ">=4.18.0 <5.0.0",
-    "react": ">=18.2.0 <19.0.0",
-    "lodash": "4.17.0 - 4.17.21",
-    "dayjs": "*",
-    "axios": "~1.6.2",
-    "chalk": "^5.3.0",
-    "semver": "7.x",
-    "commander": "2",
-    "glob": "7.2.x",
-    "debug": ">=4 <5 || ^5.3.0",
-    "@types/node": "^18.19.0",
-    "fastify": "^4.0.0-rc.1 || ^4.20.0",
-    "rxjs": "<8.0.0",
-    "uuid": "=9.0.1",
-    "eslint": ">=8.0.0",
-    "typescript": "~5.4",
-    "prettier": "^3.0.0",
-    "yargs": "^16.2.0 || ^17.0.0",
-    "pino": ">=8.0.0 <9",
-    "kleur": "4.1.0 - 4.1.5",
-    "ms": "~2"
+  "dependencies" : {
+    "express" : ">=4.18.0 <5.0.0",
+    "react" : ">=18.2.0 <19.0.0",
+    "lodash" : "4.17.0 - 4.17.21",
+    "dayjs" : "*",
+    "axios" : "1.12.0",
+    "chalk" : "^5.3.0",
+    "semver" : "7.x",
+    "commander" : "2",
+    "glob" : "7.2.x",
+    "debug" : ">=4 <5 || ^5.3.0",
+    "@types/node" : "^18.19.0",
+    "fastify" : "^4.0.0-rc.1 || ^4.20.0",
+    "rxjs" : "<8.0.0",
+    "uuid" : "=9.0.1",
+    "eslint" : ">=8.0.0",
+    "typescript" : "~5.4",
+    "prettier" : "^3.0.0",
+    "yargs" : "^16.2.0 || ^17.0.0",
+    "pino" : ">=8.0.0 <9",
+    "kleur" : "4.1.0 - 4.1.5",
+    "ms" : "~2"
   }
 }
